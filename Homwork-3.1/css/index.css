@@ -1,0 +1,19 @@
+.Text {
+   text-align: center;
+}
+
+.interval{
+ word-spacing: 200px;
+}
+.colortext{
+    color: cornflowerblue;
+}
+.nav {
+    margin-left: 10%;
+        display: inline-block;
+    width: 500px;
+      vertical-align: top;
+}
+.End {
+    text-align: center; 
+}

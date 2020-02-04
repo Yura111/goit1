@@ -1,0 +1,58 @@
+h1{
+    font-size: 101px;
+    font-weight: 50;
+    text-align: center;
+}
+P{
+    text-align: center;
+}
+h1:hover{
+    color: red;    
+}
+.width{
+    width: 720px;
+    margin-left: 450px;
+    margin-right: auto;
+    }
+    h2{
+        font-size: 75px;
+        font-weight: 50;
+        text-align: center;
+            }
+            p.Blocktext{
+                margin-left: 450px;
+                margin-right: 450px;
+                width: 420px;
+            }
+            .width1{
+                width: 720px;
+                margin-left: 240px;
+                margin-right: auto;
+            }
+            .width2{
+                width: 720px;
+                margin-left: 50%;
+                margin-right: 50%;}
+
+h3.Blocktext1{
+    width: 720px;
+    margin-left: 240px;
+    margin-right: auto;
+            }
+h4.Blocktext2{ 
+                width: 720px;
+                margin-left: 60%;
+                margin-right: 40%;;
+                    }
+                    p.Blocktext3{
+                        margin-left: 1px;
+                        margin-right: 1px;
+                        width: 420px;} 
+                        
+                        
+                        p.Blocktext4 {
+                            margin-left: 700px;
+                            margin-right: 700px;
+                            width: 420px;
+                            padding:0;} 
+
