@@ -1,0 +1,92 @@
+* {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  table.text  {
+    width:  100%; /* Ширина таблицы */
+    border-spacing: 0; /* Расстояние между ячейками */
+   }
+   table.text td {
+    width: 30%; /* Ширина ячеек */
+    vertical-align: top; /* Выравнивание по верхнему краю */
+   }
+   td.rightcol { /* Правая ячейка */ 
+    text-align: right; /* Выравнивание по правому краю */
+   }
+   .pseudo-rest::first-letter {
+    font-size: 24px;
+    color: #cf8bf3;
+    font-family: serif;}
+    h2{
+      text-align: center;
+    }
+    hr.line{
+      border: none; /* Убираем границу */
+    background-color: red; /* Цвет линии */
+    color: red; /* Цвет линии для IE6-7 */
+    height: 5px; /* Толщина линии */
+    width: 10%;
+    margin: 0 45% 0 45%;  
+    } 
+   
+  .onea{
+    float:left; /* Выравнивание по левому краю */
+    margin: 20px 0px 30px 10px; /* Отступы вокруг картинки */
+  }
+  .oneb{
+    float:left; /* Выравнивание по левому краю */
+    margin: 20px 30px 30px 10px; /* Отступы вокруг картинки */
+  }
+  .onec{float:left; /* Выравнивание по левому краю */
+    margin: 20px 30px 30px 10px; /* Отступы вокруг картинки */
+  }
+  hr.linea{
+    border: none; /* Убираем границу */
+  background-color: red; /* Цвет линии */
+  color: red; /* Цвет линии для IE6-7 */
+  height: 5px; /* Толщина линии */
+  width: 30%;
+  margin: 0 -25% 0 -25%;    
+  } 
+  td{
+    height: 0px;
+  }
+/*
+  .oned{
+    margin: 20px 30px 30px 10px;
+  }
+  .onef{
+    margin: 20px 30px 30px 10px;
+  }
+  .oneg{
+    margin: 20px 30px 30px 10px;
+  }
+*/
+
+.onej {
+  text-align: center;
+}
+.onek{
+  margin: 20px 30px 30px 10px;
+  }
+  .oneo{
+    margin: 20px 30px 30px 10px;
+  }
+  .End{
+    width: 100%; /* Ширина таблицы */
+        border-spacing: 7px 5px; /* Расстояние между границ */
+  }
+ 
+button{
+  background: rgb(10, 255, 235);
+    color: white; /* Белые буквы */ 
+    font-size: 9pt; /* Размер шрифта в пунктах */
+    color: white; /* Белые буквы */ }
+   
+    .End:hover {
+      background: #a7fa0e; /* Цвет фона под ссылкой */ 
+      color: #ffe; /* Цвет ссылки */ }
