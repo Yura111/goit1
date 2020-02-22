@@ -1,0 +1,63 @@
+* {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  table.text  {
+    width:  100%; /* Ширина таблицы */
+    border-spacing: 0; /* Расстояние между ячейками */
+   }
+   table.text td {
+    width: 30%; /* Ширина ячеек */
+    vertical-align: top; /* Выравнивание по верхнему краю */
+   }
+   td.rightcol { /* Правая ячейка */ 
+    text-align: center; /* Выравнивание по правому краю */
+   }
+   .pseudo-rest::first-letter {
+    font-size: 24px;
+    color: #1abc9c;
+    font-family: serif;}
+    .color{
+        color: #1abc9c; 
+    }
+   .picture{
+    margin-left: -55px;
+    margin-right: -60px;
+    margin-top: 0px;
+    text-align: center;
+    
+      }
+      @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+      main{
+          padding: 100px 0;
+          background-color: #e9f0fd;
+          text-align: center;
+      }
+      main h2 {
+          font-family: 'Robota', sans-serif;
+          font-size: 45px;
+          text-transform: uppercase;
+          position: relative;
+          text-align: center;
+      }
+     
+      .gallery::after{
+          content:"";
+          width: 154px;
+      height: 2px;
+      background-color: #1abc9c;
+      position: absolute;        
+        top:calc (100% + 30px);
+        left: 50%;   
+        transform: translate(-50%, 0);
+    }
+   
+  
+   .end:hover {
+        background: #a7fa0e; /* Цвет фона под ссылкой */ 
+        color: #ffe; /* Цвет ссылки */ }
+        
